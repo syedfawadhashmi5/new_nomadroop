@@ -1,0 +1,1212 @@
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+	.banner-heading {
+		font-size: 10px;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.banner-heading {
+		font-size: 10px;
+	}
+
+  /* Invoice_section_page-layout */
+	
+.Invoice_section h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.filter_invoice .bottom_line {
+  width: 100%;
+}
+
+.table_box h2 {
+  text-align: center !important;
+}
+
+.table_box h2 span {
+  font-size: 12px;
+}
+
+.filter_btn .btn {
+  width: 100%;
+  font-size: 10px;
+  margin-bottom: 8px;
+  padding: 12px 10px!important;
+}
+
+.filter_invoice h2 {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+
+.Invoice_section h2 span {
+  font-size: 12px;
+margin: 0 !important;
+}
+
+.profile-container h2 {
+  margin: 15px 0 2px;
+  font-weight: 600;
+text-align: center !important;
+}
+
+.table td, 
+.table th {
+  width: 1%;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	.isMobile{
+    display: none;
+    position: relative;
+  }
+
+  .showMobile{
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+
+  .mb-fonts{
+    font-size: 14px;
+    padding-left: 7px;
+  }
+
+  .icon-search {
+    padding-right: 0px;
+    padding-left: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #searchicooons{
+    font-size: 18px;
+  }
+
+  .input-group-text{
+    padding-left: 6px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+	#main-containe {
+		height: 380px;
+	}
+
+	.banner-heading {
+		font-size: 26px;
+	}
+
+  .mainDateField {
+    width: 100%;
+    border: none !important;
+    font-size: 14px;
+  }
+
+  .banner-search-btn{
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #ddd !important;
+    border-radius: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-search-btn:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    top: 19px;
+    position: absolute;
+    left: 0px;
+  }
+
+	.bigfont {
+		font-size: 26px !important;
+	}
+  .fontSize {
+    font-size: 14px !important;
+  }
+
+
+  #next-row {
+    padding: 10px;
+    justify-content: center;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  #next-row h4 {
+    font-size: 15px;
+  }
+
+  .boxshaodow {
+    margin-bottom: 30px;
+    padding-top: 25px;
+  }
+  #how-works img {
+    width: 80px;
+  }
+  #how-works .numbz {
+    padding-top: 3px;
+  }
+
+  #how-works h3 {
+    font-size: 16px;
+  }
+  #testimonials img {
+    width: 80%;
+  }
+  #second-row{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .second-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    line-height: 1.5;
+  }
+
+  #seee-all-button{
+    font-size: 16px;
+  }
+  #secondLast-image{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+  }
+
+  .scecondLast-title{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #blur-row img{
+    height: 80px;
+  }
+
+  
+  .font-white {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  h6 {
+    font-size: 16px!important;
+  }
+  .copyright {
+    color: #fff;
+    background: #282d33;
+    bottom: -15px;
+    position: absolute;
+    display: block;
+    width: auto!important;
+    font-weight: 300;
+    left: 7%;
+    font-size: 10px;
+    
+  }
+  .footer-icon {
+    width: 15%;
+  }
+  .footer-link {
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+      /* form page responsive */
+      .form_contain {
+        padding: 29px 0px;
+        width: 100%;
+    }
+  
+    .form_box {
+        width: 100%;
+        padding: 29px 10px;
+        height: auto;
+    }
+    
+    .form_text_box {
+        width: 100%;
+        height: auto;
+        padding: 29px 10px;
+    }
+  
+    .form_contain h2 {
+      font-size: 16px;
+      line-height: 20px;
+  }
+  .form_contain h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form_box p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+  }
+  
+  .form_box p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .form_contain .form-label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form_contain .form-control {
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .form_contain .form-select {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .form_contain .form-check-label {
+    font-size: 14px;
+  }
+  
+  .form_text_box p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .form_text_box a {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+    /* privacy page reesponsive */
+
+.privacy_text_one {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.privacy_text_one h2 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.privacy_text_one .privacy_contain_one {
+  padding: 20px 15px;
+}
+
+.privacy_text_one .privacy_contain_one h2 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.privacy_text_one .privacy_contain_one p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.privacy_text_two {
+  padding: 25px 0px;
+}
+
+.privacy_text_two h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.privacy_text_two .privacy_contain_two {
+  padding: 20px 15px;
+}
+
+.privacy_text_two .privacy_contain_two h2 {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.privacy_text_two .privacy_contain_two p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Privacypolicy .table_box .table th, .table td {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* Invoice_section_page-layout */
+	
+.Invoice_section h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.filter_invoice .bottom_line {
+  width: 100%;
+}
+
+.table_box h2 {
+  text-align: center !important;
+}
+
+.table_box h2 span {
+  font-size: 12px;
+}
+
+.filter_btn .btn {
+  width: 100%;
+  font-size: 10px;
+  margin-bottom: 8px;
+  padding: 12px 10px!important;
+}
+
+.filter_invoice h2 {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+
+.Invoice_section h2 span {
+  font-size: 12px;
+margin: 0 !important;
+}
+
+.profile-container h2 {
+  margin: 15px 0 2px;
+  font-weight: 600;
+text-align: center !important;
+}
+
+.table td, 
+.table th {
+  width: 1%;
+}
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .isMobile{
+    display: none;
+    position: relative;
+  }
+
+  .showMobile{
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+
+  .mb-fonts{
+    font-size: 14px;
+    padding-left: 7px;
+  }
+
+  .icon-search {
+    padding-right: 0px;
+    padding-left: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #searchicooons{
+    font-size: 18px;
+  }
+
+  .input-group-text{
+    padding-left: 6px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+	#main-containe {
+		height: 380px;
+	}
+
+	.banner-heading {
+		font-size: 20px;
+	}
+
+  .mainDateField {
+    width: 100%;
+    border: none !important;
+    font-size: 14px;
+  }
+
+  .banner-search-btn{
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #ddd !important;
+    border-radius: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-search-btn:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    top: 19px;
+    position: absolute;
+    left: 0px;
+  }
+
+	.bigfont {
+		font-size: 16px !important;
+	}
+  .fontSize {
+    font-size: 14px !important;
+  }
+
+
+  #next-row {
+    padding: 10px;
+    justify-content: center;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  #next-row h4 {
+    font-size: 15px;
+  }
+
+  .boxshaodow {
+    margin-bottom: 30px;
+    padding-top: 25px;
+  }
+  #how-works img {
+    width: 80px;
+  }
+  #how-works .numbz {
+    padding-top: 3px;
+  }
+
+  #how-works h3 {
+    font-size: 16px;
+  }
+  #testimonials img {
+    width: 50%;
+  }
+  #second-row{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .second-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    line-height: 1.5;
+  }
+
+  #seee-all-button{
+    font-size: 16px;
+  }
+  #secondLast-image{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+  }
+
+  .scecondLast-title{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #blur-row img{
+    height: 80px;
+  }
+
+  
+  .font-white {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  h6 {
+    font-size: 16px!important;
+  }
+  .copyright {
+    color: #fff;
+    background: #282d33;
+    bottom: -15px;
+    position: absolute;
+    display: block;
+    width: auto!important;
+    font-weight: 300;
+    left: 7%;
+    font-size: 10px;
+
+    
+  }
+  .footer-icon {
+    width: 5%;
+  }
+
+      /* form page responsive */
+      .form_contain {
+        padding: 29px 0px;
+        width: 100%;
+    }
+  
+    .form_box {
+        width: 100%;
+        padding: 29px 10px;
+        height: auto;
+    }
+    
+    .form_text_box {
+        width: 100%;
+        height: auto;
+        padding: 29px 10px;
+    }
+  
+    .form_contain h2 {
+      font-size: 16px;
+      line-height: 20px;
+  }
+  .form_contain h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form_box p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+  }
+  
+  .form_box p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .form_contain .form-label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form_contain .form-control {
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .form_contain .form-select {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .form_contain .form-check-label {
+    font-size: 14px;
+  }
+  
+  .form_text_box p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .form_text_box a {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  /* privacy page reesponsive */
+
+.privacy_text_one {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.privacy_text_one h2 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.privacy_text_one .privacy_contain_one {
+  padding: 20px 15px;
+}
+
+.privacy_text_one .privacy_contain_one h2 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.privacy_text_one .privacy_contain_one p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.privacy_text_two {
+  padding: 25px 0px;
+}
+
+.privacy_text_two h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.privacy_text_two .privacy_contain_two {
+  padding: 20px 15px;
+}
+
+.privacy_text_two .privacy_contain_two h2 {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.privacy_text_two .privacy_contain_two p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Privacypolicy .table_box .table th, .table td {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* my profile page */
+.profile-container h2 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.css-ttn1xo {
+  width: 100%;
+}
+
+.profile-container input[type=text] {
+  height: 35px;
+}
+
+.profile-container input[type=url] {
+  height: 35px;
+}
+
+.ptb-15 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: 10px !important;
+}
+
+.profile-container select {
+  height: 35px;
+}
+
+.form-select {
+  font-size: 13px;
+}
+
+.left-zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mv {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.MuiButton-contained {
+  padding: 10px 10px !important;
+}
+
+/* Invoice_section_page-layout */
+	
+.Invoice_section h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.filter_invoice .bottom_line {
+  width: 100%;
+}
+
+.table_box h2 {
+  text-align: center !important;
+}
+
+.table_box h2 span {
+  font-size: 12px;
+}
+
+.filter_btn .btn {
+  width: 100%;
+  font-size: 10px;
+  margin-bottom: 8px;
+  padding: 12px 10px!important;
+}
+
+.filter_invoice h2 {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+
+.Invoice_section h2 span {
+  font-size: 12px;
+margin: 0 !important;
+}
+
+.profile-container h2 {
+  margin: 15px 0 2px;
+  font-weight: 600;
+text-align: center !important;
+}
+
+.table td, 
+.table th {
+  width: 1%;
+}
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+  .isMobile{
+    display: none;
+    position: relative;
+  }
+
+  .showMobile{
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+
+  .mb-fonts{
+    font-size: 14px;
+    padding-left: 7px;
+  }
+
+  .icon-search {
+    padding-right: 0px;
+    padding-left: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #searchicooons{
+    font-size: 18px;
+  }
+
+  .input-group-text{
+    padding-left: 6px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+	#main-containe {
+		height: 340px;
+	}
+
+	.banner-heading {
+		font-size: 20px;
+	}
+
+  .mainDateField {
+    width: 100%;
+    border: none !important;
+    font-size: 14px;
+  }
+
+  .banner-search-btn{
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #ddd !important;
+    border-radius: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-search-btn:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    top: 19px;
+    position: absolute;
+    left: 0px;
+  }
+
+	.bigfont {
+		font-size: 16px !important;
+	}
+  .fontSize {
+    font-size: 14px !important;
+  }
+
+
+  #next-row {
+    padding: 10px;
+    justify-content: center;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  #next-row h4 {
+    font-size: 15px;
+  }
+
+  .boxshaodow {
+    margin-bottom: 30px;
+    padding-top: 25px;
+  }
+  #how-works img {
+    width: 80px;
+  }
+  #how-works .numbz {
+    padding-top: 3px;
+  }
+
+  #how-works h3 {
+    font-size: 16px;
+  }
+  #testimonials img {
+    width: 70%;
+  }
+  #second-row{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .second-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    line-height: 1.5;
+  }
+
+  #seee-all-button{
+    font-size: 16px;
+  }
+  #secondLast-image{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+  }
+
+  .scecondLast-title{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #blur-row img{
+    height: 80px;
+  }
+
+  
+  .font-white {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  h6 {
+    font-size: 16px!important;
+  }
+  .copyright {
+    color: #fff;
+    background: #282d33;
+    bottom: -15px;
+    position: absolute;
+    display: block;
+    width: auto!important;
+    font-weight: 300;
+    left: 7%;
+    font-size: 10px;
+
+    
+  }
+
+  .footer-icon {
+    width: 7%;
+    height: 1%;
+  }
+
+     /* form page responsive */
+     .form_contain {
+      padding: 29px 0px;
+      width: 100%;
+  }
+
+  .form_box {
+      width: 100%;
+      padding: 29px 10px;
+      height: auto;
+  }
+  
+  .form_text_box {
+      width: 100%;
+      height: auto;
+      padding: 29px 10px;
+  }
+
+  .form_contain h2 {
+    font-size: 18px;
+    line-height: 18px;
+}
+.form_contain h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.form_box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+}
+
+.form_box p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.form_contain .form-label {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.form_contain .form-control {
+  height: 35px;
+  font-size: 12px;
+}
+
+.form_contain .form-select {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.form_contain .form-check-label {
+  font-size: 12px;
+}
+
+.form_text_box p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.form_text_box a {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* privacy page reesponsive */
+
+.privacy_text_one {
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.privacy_text_one h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.privacy_text_one .privacy_contain_one {
+  padding: 20px 15px;
+}
+
+.privacy_text_one .privacy_contain_one h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.privacy_text_one .privacy_contain_one p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.privacy_text_two h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.privacy_text_two .privacy_contain_two {
+  padding: 20px 15px;
+}
+
+.privacy_text_two .privacy_contain_two h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.privacy_text_two .privacy_contain_two p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.Privacypolicy .table_box .table th, .table td {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* my profile page */
+.profile-container h2 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.css-ttn1xo {
+  width: 100%;
+  padding: 15px 8px !important;
+}
+
+.profile-container input[type=text] {
+  height: 35px;
+}
+
+.profile-container input[type=url] {
+  height: 35px;
+}
+
+.cnt-wrapper .ptb-15 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: 8px !important;
+}
+
+.profile-container select {
+  height: 35px;
+}
+
+.cnt-wrapper .form-select {
+  font-size: 13px;
+}
+
+.cnt-wrapper .left-zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px !important;
+}
+
+.mv {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cnt-wrapper .MuiButton-contained {
+  padding: 10px 10px !important;
+}
+
+.book_king {
+    width: 100% !important;
+    margin: 5px auto !important;
+}
+
+.booking_btn {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.profile-inner-title {
+  font-size: 18px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cnt-wrapper {
+  padding: 10px;
+}
+
+/* Invoice_section_page-layout */
+	
+.Invoice_section h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.filter_invoice .bottom_line {
+  width: 100%;
+}
+
+.table_box h2 {
+  text-align: center !important;
+}
+
+.table_box h2 span {
+  font-size: 12px;
+}
+
+.filter_btn .btn {
+  width: 100%;
+  font-size: 10px;
+  margin-bottom: 8px;
+  padding: 12px 10px!important;
+}
+
+.filter_invoice h2 {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+
+.Invoice_section h2 span {
+  font-size: 12px;
+margin: 0 !important;
+}
+
+.profile-container h2 {
+  margin: 15px 0 2px;
+  font-weight: 600;
+text-align: center !important;
+}
+
+.table td, 
+.table th {
+  width: 1%;
+}
+
+}
+
