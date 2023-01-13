@@ -1370,3 +1370,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 }
+
+.btn-component {
+	width: 22%;
+}

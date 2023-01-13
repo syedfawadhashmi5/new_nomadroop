@@ -61,7 +61,7 @@ const ProfileLayout =(props, {children}) => {
   const appDispatch = useContext(DispatchContext)
   const theme = useTheme();
   const [open, setOpen] = useState(true);
-
+console.log('layout', props.drawerOpen)
   const handleDrawer = () => {
     setOpen(!open);
   };
@@ -186,8 +186,6 @@ const ProfileLayout =(props, {children}) => {
                 </NavLink>
               </ListItem>
 
-
-            
               <ListItem >
                   <NavLink to="/profile/add-property" className={({isActive}) => isActive ? 'drawer_btn active-bar w-100': 'drawer_btn w-100'}>
                   <ListItemButton>
@@ -229,6 +227,15 @@ const ProfileLayout =(props, {children}) => {
                     </NavLink>
                   </ListItem>
                   
+                  <ListItem >
+                  <NavLink to="/profile/add-property" className={({isActive}) => isActive ? 'drawer_btn active-bar w-100': 'drawer_btn w-100'}>
+                  <ListItemButton>
+                      <AddHomeIcon className='me-2' /> 
+                      Add Property
+                  </ListItemButton>
+                  </NavLink>
+              </ListItem>
+
                 </>
               
               )}

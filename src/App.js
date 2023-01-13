@@ -6,7 +6,7 @@ import "./sass/App.scss";
 import "./Responsive.css"; 
 
 // React Functionns
-import { useEffect, useReducer } from "react";
+import { useEffect, useReducer,useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Axios from "axios";
 
@@ -49,6 +49,8 @@ function App() {
     token: getCookie("token") ? getCookie("token") : null,
     roles: localStorage.getItem("roles") ? JSON.parse(localStorage.getItem("roles")) : [],
   };
+
+  const [drawerOpen, setDrawerOpen] = useState(true);
 
 
   const ourReducer = (state, action) => {
@@ -120,7 +122,7 @@ function App() {
       <DispatchContext.Provider value={dispatch}>
 
         <BrowserRouter>
-          <Navbar />
+          <Navbar  drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />
           
           <Routes>
             <Route exact path="/" element={<Home />} />    
@@ -137,7 +139,7 @@ function App() {
 
             {state.loggedIn && (
             <>
-              <Route path="/profile" element={<ProfileLayout />}>
+              <Route path="/profile" element={<ProfileLayout drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />}>
                 <Route path="" element={<MyProfile />} />
                 
                 <Route path="my-bookings" element={<MyBookings />} />

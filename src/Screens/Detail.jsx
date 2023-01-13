@@ -166,7 +166,7 @@ function Detail() {
                   <tbody>
                     <tr>
                       <th>
-                      Invoice No <br /> <span>27383</span> {/*  <br /> <ArrowDropUpIcon /> */}
+                      Invoice No <br /> <span>27383</span>
                       </th>
                       <td>
                         Monday <br /> September 26th, 2022
@@ -179,6 +179,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Issued</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -195,6 +196,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Confirmed</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -211,6 +213,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Deposit Paid</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -227,6 +230,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Issued</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -243,6 +247,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Confirmed</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -259,6 +264,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Deposit Paid</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -275,6 +281,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Issued</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -291,6 +298,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Confirmed</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -307,6 +315,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Deposit Paid</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                     <tr>
                       <th>
@@ -323,6 +332,7 @@ function Detail() {
                         <span>USD 393.6</span>
                       </td>
                       <td>Issued</td>
+                      <i class="fa-solid fa-xmark"></i>
                     </tr>
                   </tbody>
                 </table>

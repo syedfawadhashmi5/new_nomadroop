@@ -29,7 +29,7 @@ import NavModal from "./NavModal";
 // import Myproperty from "../screens/navbscreens/myproperty";
 
 // Hasnain
-export default function Navbarz() {
+export default function Navbarz(props) {
   const appState = useContext(StateContext);
   const appDispatch = useContext(DispatchContext);
   const [open, setOpen] = useState(false);
@@ -37,6 +37,8 @@ export default function Navbarz() {
   const navigate = useNavigate();
   const navRef = useRef();
   const [modalForm, setModalForm] = useState("login");
+
+  console.log(props)
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
@@ -65,6 +67,15 @@ export default function Navbarz() {
     setOpen(true);
     console.log('handleFormOpen', option)
   };
+
+
+const handledrawer = (props) => {
+  if (props.drawerOpen === false) {
+    props.setDrawerOpen(true);
+  } else {
+    props.setDrawerOpen(false);
+  } 
+}
 
   const handleLogout = () => {
     navigate("/");

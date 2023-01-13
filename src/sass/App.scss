@@ -1183,3 +1183,25 @@ input {
 .table_box .table_td  th, .table_td  td:last-child {
   border-right: none;
 }
+
+.table_box .table_td  tr {
+  position: relative;
+}
+
+.table_user tr i {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 7%;
+}
+
+.table_user  tr:hover i{
+  display: block;
+  width: 6px;
+  height: 6px;
+  color: #dee2e6;
+  }
+
+.table_user  tr:hover{
+  background-color: #ffffff;
+}
