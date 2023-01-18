@@ -1,0 +1,37 @@
+
+export const CREATE_PROPERTY = "CREATE_PROPERTY";
+export const ALL_PROPERTIES = "ALL_PROPERTIES";
+export const UPDATE_PROPERTY = "UPDATE_PROPERTY";
+export const DELETE_PROPERTY = "DELETE_PROPERTY";
+export const SHOW_PROPERTY = "SHOW_PROPERTY";
+export const DELETE_ALL_PROPERTY = "DELETE_ALL_PROPERTY";
+export const GET_PROPERTIES = "GET_PROPERTIES"
+
+
+export const CREATE_IMAGE = "CREATE_IMAGE";
+export const GET_IMAGE = "GET_IMAGE";
+export const UPDATE_IMAGE = "UPDATE_IMAGE";
+export const DELETE_IMAGE = "DELETE_IMAGE";
+export const GET_ALL_IMAGE = "GET_ALL_IMAGE";
+
+export const GET_USER = "CREATE_USER";
+export const UPDATE_USER = "UPDATE_USER";
+export const UPDATE_USER_IMAGE = "UPDATE_USER_IMAGE";
+export const CLEAR_USER_IMAGE= "CLEAR_USER_IMAGE";
+export const DELETE_USER= "DELETE_USER";
+
+export const GET_RESERVATION = "CREATE_IMAGE";
+export const BOOK_RESERVATION = "GET_IMAGE";
+export const CONFIRM_RESERVATION = "UPDATE_IMAGE";
+export const REJECT_RESERVATION = "DELETE_IMAGE";
+export const DELETE_RESERVATION = "GET_ALL_IMAGE";
+
+
+export const GET_CHAT = "CREATE_IMAGE";
+export const CREATE_CHAT = "GET_IMAGE";
+export const SEND_MESSAGE = "UPDATE_IMAGE";
+export const RECEIVED_MESSAGE = "DELETE_IMAGE";
+export const DELETE_MESSAGE = "GET_ALL_IMAGE";
+
+
+
