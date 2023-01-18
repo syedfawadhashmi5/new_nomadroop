@@ -38,6 +38,8 @@ import Faqs from './Screens/Static/faq';
 import Privacypolicy from './Screens/Static/Privacypolicy';
 import Detail from './Screens/Detail';
 
+
+
 function App() {
   // let url = "http://localhost:3001"
   let url = "https://ror-nomadroof.herokuapp.com"
@@ -52,7 +54,7 @@ function App() {
 
   const [drawerOpen, setDrawerOpen] = useState(true);
 
-
+  
   const ourReducer = (state, action) => {
     switch (action.type) {
       case "LOGIN":
@@ -122,7 +124,7 @@ function App() {
       <DispatchContext.Provider value={dispatch}>
 
         <BrowserRouter>
-          <Navbar  drawerOpen={drawerOpen} setDrawerOpen={setDrawerOpen} />
+          <Navbar />
           
           <Routes>
             <Route exact path="/" element={<Home />} />    

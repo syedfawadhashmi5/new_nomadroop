@@ -18,6 +18,9 @@ import Axios from "axios";
 
 import StateContext from "../StateContext";
 
+import Calendar from "../Components/calendar";
+
+
 countries.registerLocale(enLocale);
 const countryObj = countries.getNames("en", { select: "official" });
 const countryArr = Object.entries(countryObj).map(([key, value]) => {
@@ -41,6 +44,8 @@ const One = (props) => {
   const validate = () => {
     
   };
+
+
 
   return (
     <Form >
@@ -524,7 +529,15 @@ const Four = (props) => {
     }
   },[])
 
+  const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
 
+
+  const [month, setMonth] = useState(new Date().getMonth());
+  const [year, setYear] = useState(new Date().getFullYear());
+
+ 
   return (
     <>
       <div className="row">
@@ -564,6 +577,33 @@ const Four = (props) => {
               <Form.Control type="text" name="title" placeholder="Type Start Date here"  onChange={onInputChanged}/>
             </Form.Group>
           </div>
+        </div>
+        <div className="calendar_contain">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-2">
+              <div className="calendar_main">
+              <h2>{monthNames[month]}</h2>
+              <h3>{year}</h3>
+              <div className="arrow">
+              <i aria-label class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div className="filter">
+              <div className="dot_color1"><span>Today</span></div>
+              <div className="dot_color2"><span>Available</span></div>
+              <div className="dot_color3"><span>Not Available</span></div>
+              <div className="dot_color4"><span>Dates Booked</span></div>
+              </div>
+              </div>
+            </div>
+            <div className="col-md-10">
+              <Calendar 
+              
+              />
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </>

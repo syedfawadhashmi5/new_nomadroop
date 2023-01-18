@@ -1274,5 +1274,19 @@ text-align: center !important;
   margin-left: 0px !important;
 }
 
+.react-calendar {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.calendar_contain .filter {
+  margin-top: 14px;
+  padding: 0px 22px;
+}
+
+.react-calendar__month-view > div {
+  height: 219px;
+}
+
 }
 
